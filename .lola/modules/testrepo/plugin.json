@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "testrepo",
+  "version": "0.1.0",
+  "description": "Desc",
+  "extensions": {
+    "dev.getlola": {
+      "commands": "./dev.getlola/commands",
+      "agents": "./dev.getlola/agents",
+      "instructions": "./dev.getlola/AGENTS.md"
+    }
+  }
+}
